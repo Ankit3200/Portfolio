@@ -25,6 +25,8 @@ const Ball = (props) => {
           polygonOffsetFactor={-5}
           flatShading
         />
+
+        {/* its used for the texture */}
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}

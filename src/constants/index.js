@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  // solidity,
   reactjs,
   redux,
   tailwind,
@@ -23,7 +24,10 @@ import {
   jobit,
   tripguide,
   threejs,
+ 
 } from "../assets";
+
+
 
 export const navLinks = [
   {
@@ -72,10 +76,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+ 
   {
     name: "React JS",
     icon: reactjs,
@@ -108,10 +109,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
+
+
+ 
 ];
 
 const experiences = [
@@ -198,68 +199,171 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SuvidhaFoundation",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our web-based platform supports an NGO dedicated to women's empowerment, providing resources, education, and community programs. Join us to foster equality and uplift women's lives globally.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    // image: carrent,
+    source_code_link: "https://github.com/Aniraai/suvidhafoundation",
+  },
+  {
+    name: "Robotics website",
+    description:
+      "Robotics Web is an online platform for the latest robotics advancements, news, and resources, featuring articles, tutorials, and a community forum for enthusiasts and professionals.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    // image: carrent,
+    source_code_link: "https://aniraai.github.io/Robotics-web/",
+  },
+  {
+    name: "Solution",
+    description:
+      "Create An Engaging And Detailed Description For Solutions 24, The Official Website For The Technical Fest Of Army Institute Of Technology Pune.  ",
+    tags: [
+      {
+        name: "Handelbars",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://www.solutions-24.tech/",
+  },
+  {
+    name: "Voyager",
+    description:
+      "Embark On A Transformative Career Journey With Our Career Guidance Web App, Leveraging The Powerful Gemini API To Provide Personalized Career Insights And Guidance. ",
+    tags: [
+      {
+        name: "Handelbars",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "deuno",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/nepal143/TBWebsite",
+  },
+  {
+    name: "Wartech",
+    description:
+      "Welcome To WarTech, The Ultimate Hub For Robotics Enthusiasts! Our Website Is Your Gateway To A World Of Innovation, Exploration, And Hands-On Learning In Robotics.  ",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "hhttps://nepal143.github.io/robotics-wartech/",
+  },
+  {
+    name: "TB WEBSITE",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "handelbars",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html,css ",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
+
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://technicalboard.onrender.com/",
   },
+  
+
+  
+  
   {
-    name: "Job IT",
+    name: "Crowdfunding",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Our crowdfunding website empowers creators to bring their ideas to life, connecting them with backers who share their vision. Discover and support innovative projects, from tech gadgets to creative arts.",
     tags: [
       {
-        name: "react",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Metamask",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "Next js",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Aniraai/crwdfundig",
   },
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
