@@ -49,10 +49,7 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "Web3 Devloper",
-    icon: web,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
@@ -60,6 +57,11 @@ const services = [
   {
     title: "Video editor",
     icon: creator,
+  },
+
+  {
+    title: "UI/UX",
+    icon: figma,
   },
 ];
 
@@ -117,16 +119,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
-    company_name: "SuvidhaFoundation",
+    title: "Backend Developer",
+    company_name: "cyberpeace",
     icon:tesla,
     iconBg: "#383E56",
-    date: "Oct 2023 - Nov 2023",
+    date: "Aug 2024 - Nov 2024",
     points: [
-      "Developing and maintaining web applications using js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     " Optimized backend APIs, reducing response times by 18% and integrating with frontends/third-party APIs.",
+     " Ensured 99% uptime of mission-critical backend systems during tenure",
+     " Automated API documentation with Swagger, improving collaboration and reducing manual efforts"
     ],
   },
   // {
@@ -142,32 +143,7 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  //
 ];
 
 const testimonials = [
@@ -199,9 +175,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SuvidhaFoundation",
+    name: "RoadMate",
     description:
-      "Our web-based platform supports an NGO dedicated to women's empowerment, providing resources, education, and community programs. Join us to foster equality and uplift women's lives globally.",
+    "RideDekho is a comprehensive vehicle booking and rental platform that allows users to book cars, bikes, and auto-rickshaws for their travel needs. Whether you need a ride for a short trip, a long journey, or wish to rent a vehicle for personal use, RideDekho provides a seamless experience.",
     tags: [
       {
         name: "Html",
@@ -217,12 +193,12 @@ const projects = [
       },
     ],
     // image: carrent,
-    source_code_link: "https://github.com/Aniraai/suvidhafoundation",
+    source_code_link: "https://github.com/Ankit3200/RoadMate",
   },
   {
-    name: "Robotics website",
+    name: "BookNest",
     description:
-      "Robotics Web is an online platform for the latest robotics advancements, news, and resources, featuring articles, tutorials, and a community forum for enthusiasts and professionals.",
+    "SkillSphere isn’t just an online bookstore—it’s a gateway to knowledge, creativity, and personal growth! Whether you're a student, a professional, or an avid reader, SkillSphere helps you discover, buy, and explore books effortlessly. With a seamless user experience, curated recommendations, and secure payments, your next great read is just a click away!",
     tags: [
       {
         name: "Html",
@@ -238,12 +214,12 @@ const projects = [
       },
     ],
     // image: carrent,
-    source_code_link: "https://aniraai.github.io/Robotics-web/",
+    source_code_link: "https://github.com/Ankit3200/BookNest",
   },
   {
     name: "Solution",
     description:
-      "Create An Engaging And Detailed Description For Solutions 24, The Official Website For The Technical Fest Of Army Institute Of Technology Pune.  ",
+    "Presento is a powerful yet easy-to-use attendance calculator designed for students and professionals to effortlessly track their attendance percentage. Whether you need to maintain minimum attendance for exams or keep a log of workdays, Presento makes attendance tracking simple, smart, and stress-free!",
     tags: [
       {
         name: "Handelbars",
@@ -259,12 +235,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://www.solutions-24.tech/",
+    source_code_link: "https://github.com/Ankit3200/Presento",
   },
   {
-    name: "Voyager",
+    name: "FlixFlow",
     description:
-      "Embark On A Transformative Career Journey With Our Career Guidance Web App, Leveraging The Powerful Gemini API To Provide Personalized Career Insights And Guidance. ",
+    "FlixFlow is a next-gen video streaming platform that brings you an immersive entertainment experience. Whether you love binge-watching TV shows, discovering indie films, or exploring educational content, FlixFlow delivers high-quality streaming, personalized recommendations, and a seamless viewing experience—all in one place!",
     tags: [
       {
         name: "Handelbars",
@@ -288,12 +264,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/nepal143/TBWebsite",
+    source_code_link: "https://github.com/Ankit3200/FlixFlow",
   },
   {
-    name: "Wartech",
+    name: "LinkSlice",
     description:
-      "Welcome To WarTech, The Ultimate Hub For Robotics Enthusiasts! Our Website Is Your Gateway To A World Of Innovation, Exploration, And Hands-On Learning In Robotics.  ",
+    "LinkSlice is a fast, secure, and reliable URL shortener that helps you shorten long URLs into sleek, shareable links. Whether you're managing marketing campaigns, tracking click analytics, or simply making links more accessible, LinkSlice provides a seamless experience with real-time insights and custom branding.",
     tags: [
       {
         name: "HTML",
@@ -309,59 +285,13 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "hhttps://nepal143.github.io/robotics-wartech/",
+    source_code_link: "https://github.com/Ankit3200/LinkSlice",
   },
-  {
-    name: "TB WEBSITE",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "handelbars",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html,css ",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-
-    ],
-    image: tripguide,
-    source_code_link: "https://technicalboard.onrender.com/",
-  },
-  
+ 
 
   
   
-  {
-    name: "Crowdfunding",
-    description:
-      "Our crowdfunding website empowers creators to bring their ideas to life, connecting them with backers who share their vision. Discover and support innovative projects, from tech gadgets to creative arts.",
-    tags: [
-      {
-        name: "Solidity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Metamask",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Next js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/Aniraai/crwdfundig",
-  },
+  
   
   
 ];
